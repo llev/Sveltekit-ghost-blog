@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-ee643be1.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-aab27c5c.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-81d71e05.js">
+		<link rel="modulepreload" href="/./_app/pages/posts/[slug].svelte-a6add5ce.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-ee643be1.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-81d71e05.js"),
+						import("/./_app/pages/posts/[slug].svelte-a6add5ce.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/posts/test-post",
+						query: new URLSearchParams(""),
+						params: {"slug":"test-post"}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<main><nav><a href="/">Home</a></nav>
+    <h1>Test post</h1>
+<!-- HTML_TAG_START --><p>kjskjkaljlkajlkajlkjam</p><figure class="kg-card kg-image-card"><img src="https://dfeb.ghost.io/content/images/2021/07/DSC01633.jpg" class="kg-image" alt loading="lazy" width="1120" height="1400" srcset="https://dfeb.ghost.io/content/images/size/w600/2021/07/DSC01633.jpg 600w, https://dfeb.ghost.io/content/images/size/w1000/2021/07/DSC01633.jpg 1000w, https://dfeb.ghost.io/content/images/2021/07/DSC01633.jpg 1120w" sizes="(min-width: 720px) 720px"></figure><!-- HTML_TAG_END -->
+  <p>Copyright</p></main>
+
+
+
+	
+</div>
+	</body>
+</html>
