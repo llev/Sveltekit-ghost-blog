@@ -1,11 +1,11 @@
-<script>
+<!-- <script>
   import Nav from '/src/components/Nav.svelte'
   import Footer from '/src/components/Footer.svelte'
-</script>
+</script> -->
 
 <main>
-  <Nav/>
+  <!-- <Nav/> -->
     <slot/>
-  <Footer/>
+  <!-- <Footer/> -->
 </main>
 
